@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    position: relative;
+        background-image: url(img/Note.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+}
+/* Start header section */
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 149);
+    font-weight: 900;
+}
+.main{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+}
+.header,
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header h1{
+    margin: 3rem 0;
+    font-size: 5vw;
+    color: aliceblue;
+}
+.header input{
+    width: 60vw;
+    padding: 1rem 2rem;
+    border-radius: 2vw;
+    border: 2px solid rgb(180, 180, 180);
+    font-size: 2.5vw;
+    text-align: center;
+    caret-color: rgb(255, 0, 123);
+}
+.header input::placeholder{
+    color: rgb(59, 59, 59);
+}
+/* End header section */
+/* Start colors & icons section */
+.colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.gray{
+    background-color: rgb(160, 160, 160);
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.gray:hover{
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.orange{
+    background-color: orange;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.orange:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.yellow{
+    background-color: yellow;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.yellow:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.lightGreen{
+    background-color: lightgreen;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.lightGreen:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.magenta{
+    background-color: magenta;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.magenta:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.lightseagreen{
+    background-color: lightseagreen;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.lightseagreen:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.lightCoral{
+    background-color: lightcoral;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}
+.lightCoral:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.pink{
+    background-color: pink;
+    border-radius: 50%;
+    width: 3vw;
+    height: 3vw;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+    margin-right:3vw !important;
+}
+.pink:hover {
+    border-radius: 50%;
+    width: 4vw;
+    height: 4vw;
+    cursor: pointer;
+}
+.theme{
+    margin: .5rem ;
+}
+.eraser{
+    font-size: 2.5vw;
+    cursor: pointer;
+    color: rgb(255, 0, 72);
+    font-weight: 900;
+    transition: all .6s ease-in-out;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0.3rem;
+}
+.eraser:hover{
+    background-color: rgb(255, 0, 72);
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+.plus{
+    font-size: 2.5vw;
+    cursor: pointer;
+    color: rgb(0, 155, 57);
+    font-weight: 900;
+    transition: all .6s ease-in-out;
+    padding: 10px;
+    border-radius: 15px;
+}
+.plus:hover{
+    background-color: rgb(0, 155, 57);
+    cursor: pointer;
+    color: white;
+    font-weight: 900;
+}
+/* End colors & icons section */
+/* Start container section */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 50vh;
+}
+.container h3{
+    margin:  .5rem 1rem;
+    padding: .5rem 1.3rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    cursor: pointer;
+    background-color: rgb(231, 231, 231);
+    transition: all .7s ease-in-out;
+}
+.container h3:hover{
+    transform: scale(130%);
+}
+.designer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    color: antiquewhite;
+}
+/* End container section */
