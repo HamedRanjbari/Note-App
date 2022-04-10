@@ -13,6 +13,7 @@ body{
         object-fit: cover;
         width: 100vw;
         height: 100vh;
+        overflow: hidden;
 }
 /* Start header section */
 a{
@@ -220,6 +221,7 @@ a{
     flex-wrap: wrap;
     width: 100vw;
     height: 50vh;
+    overflow: hidden;
 }
 .container h3{
     margin:  .5rem 1rem;
